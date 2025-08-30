@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Course Registration Form</h1>
+    <form action = "./success.html">
+
+        <label>Email</label>
+        <input type="email" autofocus required  placeholder = " enter Your Email Address">
+        <br>
+        <label>Password</label>
+        <input type="password" autofocus required  placeholder = " enter Your Password">
+        <br>
+        <label>First Name : </label>
+        <input type="text" autofocus required placeholder="Enter you first name">
+        <br>
+        <label>Last Name : </label>
+        <input type="text" autofocus required placeholder="Enter you last name">
+        <br>
+        <label>Gender : </label><br>
+        <input type="radio" id = "male" name = "gender"><label for="male">Male </label><br>
+        <input type="radio" id = "female" name = "gender"><label for="female">Female</label>
+        <br>
+        <label>Qualification : </label>
+        <input type = "text" autofocus required placeholder="Enter Your Highest Qualification">
+        <br>
+        <label>Courses Available to Enroll</label>
+        <select>
+            <option value="">Java Full Stack Development</option>
+            <option value="">Python Full Stack Development</option>
+            <option value="">Mean</option>
+            <option value="">Mern</option>
+        </select>
+        <br>
+        <label>Phone Number</label>
+        <input type="text" autofocus required maxlength="10" minlength="10" placeholder = " enter Your Phone Number">
+        <br>
+        <label>Address</label>
+        <input type="text" autofocus reuired maxlength="50" minlength = "10">
+        <br>
+        <label>Course Enrollment date : </label>
+        <input type="date">
+        
+    </form>
+</body>
+</html>
